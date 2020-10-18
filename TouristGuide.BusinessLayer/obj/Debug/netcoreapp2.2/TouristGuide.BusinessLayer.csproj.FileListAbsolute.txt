@@ -1,0 +1,14 @@
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.deps.json
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.dll
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.pdb
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.Entities.dll
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\bin\Debug\netcoreapp2.2\TouristGuide.Entities.pdb
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.csprojAssemblyReference.cache
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.AssemblyInfoInputs.cache
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.AssemblyInfo.cs
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.csproj.CopyComplete
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.dll
+D:\IIHT\Task-11\MongoDb\TouristGuide.BusinessLayer\obj\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.pdb

@@ -1,0 +1,5 @@
+D:\IIHT\Task-11\MongoDb\TouristGuide.Entities\bin\Debug\netcoreapp3.1\TouristGuide.Entities.deps.json
+D:\IIHT\Task-11\MongoDb\TouristGuide.Entities\bin\Debug\netcoreapp3.1\TouristGuide.Entities.dll
+D:\IIHT\Task-11\MongoDb\TouristGuide.Entities\obj\Debug\netcoreapp3.1\TouristGuide.Entities.csprojAssemblyReference.cache
+D:\IIHT\Task-11\MongoDb\TouristGuide.Entities\obj\Debug\netcoreapp3.1\TouristGuide.Entities.AssemblyInfoInputs.cache
+D:\IIHT\Task-11\MongoDb\TouristGuide.Entities\obj\Debug\netcoreapp3.1\TouristGuide.Entities.AssemblyInfo.cs
