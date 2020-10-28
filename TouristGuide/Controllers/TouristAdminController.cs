@@ -19,7 +19,6 @@ namespace TouristGuide.Controllers
         /// </summary>
         private readonly IAdminTourguideServices _atgServices;
         private readonly ITourguideServices _tgServices;
-
         public TouristAdminController(IAdminTourguideServices adminTourguideServices, ITourguideServices tourguideServices)
         {
             _atgServices = adminTourguideServices;
@@ -32,7 +31,8 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IEnumerable<ContactUs>> MessagebyUser()
         {
-            return await _atgServices.AllContactMessage();
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// List of All Tour Guide who register with us.
@@ -42,7 +42,8 @@ namespace TouristGuide.Controllers
         [Route("AllGuide")]
         public async Task<IEnumerable<TourGuide>> AllTourGuide()
         {
-            return await _atgServices.AllTourGuide();
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing tour Operator by its Id and TourGuide Collection
@@ -54,17 +55,8 @@ namespace TouristGuide.Controllers
         [Route("UpdateTourGuide/{tourId}")]
         public async Task<IActionResult> UpdateTourGuide(string tourId, [FromBody] TourGuide tourGuide)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getTour = _atgServices.TourGuideById(tourId);
-            if (getTour == null)
-            {
-                return NotFound();
-            }
-            await _atgServices.UpdateTourGuide(tourId, tourGuide);
-            return CreatedAtAction("AllTourGuide", new { tourId = tourGuide.TourId }, tourGuide);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an Existing tour guide by tourId
@@ -75,23 +67,8 @@ namespace TouristGuide.Controllers
         [Route("DeleteTourGuide/{tourId}")]
         public async Task<IActionResult> DeleteTourGuide(string tourId)
         {
-            if (tourId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _atgServices.DeleteTourGuide(tourId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("Tour Guide Deleted");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add new Place in MongoDb Place Collection
@@ -102,22 +79,8 @@ namespace TouristGuide.Controllers
         [Route("AddNewPlace")]
         public async Task<IActionResult> AddPlace([FromBody] PlaceViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Place newPlace = new Place
-            {
-                Name = model.Name,
-                Picture = model.Picture,
-                Description = model.Description,
-                Attraction = model.Attraction,
-                Experiences = model.Experiences,
-                Distance = model.Distance,
-                DestinationId = model.DestinationId
-            };
-            var result = await _atgServices.AddNewPlace(newPlace);
-            return Ok("New Place added...");
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an Existing Place and add some information
@@ -129,17 +92,8 @@ namespace TouristGuide.Controllers
         [Route("UpdatePlace/{placeId}")]
         public async Task<IActionResult> UpdatePlace(string placeId, [FromBody]  Place place)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getPlace = _tgServices.GetPlaceById(placeId);
-            if (getPlace == null)
-            {
-                return NotFound();
-            }
-            await _atgServices.UpdatePlace(placeId, place);
-            return CreatedAtAction("GetAllPlace","Tourist", new { placeId = place.PlaceId }, place);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete a place from MongoDb Place Collection
@@ -150,23 +104,8 @@ namespace TouristGuide.Controllers
         [Route("DeletePlace/{placeId}")]
         public async Task<IActionResult> DeletePlace(string placeId)
         {
-            if (placeId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _atgServices.DeletePlace(placeId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("Place Deleted");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add new Destination in destination MongoDb Collection
@@ -177,19 +116,8 @@ namespace TouristGuide.Controllers
         [Route("NewDestination")]
         public async Task<IActionResult> AddNewDestination([FromBody] DestinationViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            Destination destination = new Destination
-            {
-                Name = model.Name,
-                Url = model.Url,
-                OpenInNewWindow = model.OpenInNewWindow,
-                Description = model.Description
-            };
-            var result = await _atgServices.AddNewDestination(destination);
-            return Ok("New Destination added...");
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an Existing Destination
@@ -201,17 +129,8 @@ namespace TouristGuide.Controllers
         [Route("UpdateDestination/{destinationId}")]
         public async Task<IActionResult> UpdateDestination(string destiationId, [FromBody] Destination destination)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getdestiation = _atgServices.DestinationById(destiationId);
-            if (getdestiation == null)
-            {
-                return NotFound();
-            }
-            await _atgServices.UpdateDestination(destiationId, destination);
-            return CreatedAtAction("GetDestinationList", "Tourist", new { destinationId = destination.DestinationId }, destination);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete an existing Destination by destinationId
@@ -222,23 +141,8 @@ namespace TouristGuide.Controllers
         [Route("DeleteDestination/{destinationId}")]
         public async Task<IActionResult> DeleteDestination(string destinationId)
         {
-            if (destinationId == null)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                var result = await _atgServices.DeleteDestination(destinationId);
-                if (result == false)
-                {
-                    return NotFound();
-                }
-                return Ok("Destination Deleted");
-            }
-            catch (Exception)
-            {
-                return BadRequest();
-            }
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add information About India
@@ -249,24 +153,8 @@ namespace TouristGuide.Controllers
         [Route("AboutIndia")]
         public async Task<IActionResult> AddAboutIndia([FromBody] AboutIndiaViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            AboutIndia abouindia = new AboutIndia
-            {
-                About = model.About,
-                Visa = model.Visa,
-                Currency = model.Currency,
-                Language = model.Language,
-                State = model.State,
-                UNION_TERRITORIES =  model.UNION_TERRITORIES,
-                Climate = model.Climate,
-                How_Visit =  model.How_Visit
-
-            };
-            await _atgServices.AboutIndia(abouindia);
-            return Ok("About India Information added...");
+            //Do Code Here
+            throw new NotImplementedException();
         }
     }
 }

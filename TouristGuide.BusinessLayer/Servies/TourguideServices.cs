@@ -25,8 +25,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public IList<Destination> DestinationList()
         {
-            var destination = _tgRepository.DestinationList();
-            return destination;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all place from MongoDb collection
@@ -34,8 +34,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<IEnumerable<Place>> GetAllPlaces()
         {
-            var place = await _tgRepository.GetAllPlaces();
-            return place;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get place by destination by Destination Id
@@ -44,8 +44,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Destination> GetPlaceByDestinationId(string destinationId)
         {
-            var destination = await _tgRepository.GetPlaceByDestinationId(destinationId);
-            return destination;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Place by Id from MongoDb  Collection
@@ -54,8 +54,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Place> GetPlaceById(string placeId)
         {
-            var place = await _tgRepository.GetPlaceById(placeId);
-            return place;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Hire Tour Guide by user
@@ -64,8 +64,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<TourGuide> HireTourGuide(TourGuide tourGuide)
         {
-            var tourguide = await _tgRepository.HireTourGuide(tourGuide);
-            return tourGuide;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all information from AboutIndia MongoDb Collection
@@ -73,8 +73,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<IEnumerable<AboutIndia>> KnowAboutIndia()
         {
-            var about = await _tgRepository.KnowAboutIndia();
-            return about;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// get place by Attraction from Place MongoDb collection
@@ -83,8 +83,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<IEnumerable<Place>> PlaceByAttraction(string name)
         {
-            var attraction = await _tgRepository.PlaceByAttraction(name);
-            return attraction;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Tour Guide Infromation for user
@@ -93,8 +93,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<TourGuide> TourGuideInformation(string tourId)
         {
-            var guideinfo = await _tgRepository.TourGuideInformation(tourId);
-            return guideinfo;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Add Message by user in ContactsUs MongoDb Collection
@@ -103,8 +103,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<ContactUs> UserContactUs(ContactUs contactUs)
         {
-            var newcontact = await _tgRepository.UserContactUs(contactUs);
-            return newcontact;
+            //Do Code Here
+            throw new NotImplementedException();
         }
     }
 }

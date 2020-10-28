@@ -30,7 +30,8 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IEnumerable<Place>> GetAllPlace()
         {
-            return await _tgServices.GetAllPlaces();
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get a place Details by Place Id
@@ -41,16 +42,8 @@ namespace TouristGuide.Controllers
         [Route("PlaceById/{placeId}")]
         public async Task<IActionResult> GetPlaceById(string placeId)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getplace = await _tgServices.GetPlaceById(placeId);
-            if (getplace == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllPlace", new { placeId = getplace.PlaceId }, getplace);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Find Placce by Attraction and Place name
@@ -61,16 +54,8 @@ namespace TouristGuide.Controllers
         [Route("Findplace/{Name}")]
         public async Task<IActionResult> FindPlacebyAttraction(string name)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var findplace = await _tgServices.PlaceByAttraction(name);
-            if (findplace == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllPlace", findplace);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Hire a tour guide by user and save data in MongoDb collection
@@ -81,22 +66,8 @@ namespace TouristGuide.Controllers
         [Route("HireTourGuide")]
         public async Task<IActionResult> HireTourGuide([FromBody] TourGuideViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            TourGuide guide = new TourGuide
-            {
-                Name = model.Name,
-                Phone = model.Phone,
-                Email = model.Email,
-                Address = model.Address,
-                Experience = model.Experience,
-                Remark = model.Remark
-            };
-            var result = await _tgServices.HireTourGuide(guide);
-            //return CreatedAtAction("TourGuideInformation", new { tourId = result.TourId }, result);
-            return Ok("Thanks for Hiring Tour Guide We contact you Soon..");
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Destination for user from Db Collection
@@ -106,16 +77,8 @@ namespace TouristGuide.Controllers
         [Route("DestinationList")]
         public IActionResult GetDestinationList()
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var getdestination = _tgServices.DestinationList();
-            if (getdestination == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllPlace", getdestination);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// get Tour guide information by TourId
@@ -126,16 +89,8 @@ namespace TouristGuide.Controllers
         [Route("TourGuideInformation/{tourId}")]
         public async Task<IActionResult> TourGuideInformation(string tourId)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest();
-            }
-            var guideinfo = await _tgServices.TourGuideInformation(tourId);
-            if (guideinfo == null)
-            {
-                return NotFound();
-            }
-            return CreatedAtAction("GetAllPlace", new { tourId = guideinfo.TourId}, guideinfo);
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Conatct Us by User and save all message in ContactUs Db Collection
@@ -146,20 +101,8 @@ namespace TouristGuide.Controllers
         [Route("Contactus")]
         public async Task<IActionResult> ContactUs([FromBody] ContactUsViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            ContactUs message = new ContactUs
-            {
-                FullName = model.FullName,
-                Phone = model.Phone,
-                Email = model.Email,
-                Message = model.Message,
-                DateofMessage = model.DateofMessage
-            };
-            var result = await _tgServices.UserContactUs(message);
-            return Ok("Thanks for Contact with Us Tour Guide We contact you Soon..");
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Know About India some Quick Information that featch from AboutIndia Db Collction
@@ -169,7 +112,8 @@ namespace TouristGuide.Controllers
         [Route("AboutIndia")]
         public async Task<IEnumerable<AboutIndia>> AboutIndia()
         {
-            return await _tgServices.KnowAboutIndia();
+            //Do Code Here
+            throw new NotImplementedException();
         }
     }
 }

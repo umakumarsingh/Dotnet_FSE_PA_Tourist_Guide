@@ -10,3 +10,15 @@ D:\IIHT\Task-11\MongoDb\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGu
 D:\IIHT\Task-11\MongoDb\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.csproj.CopyComplete
 D:\IIHT\Task-11\MongoDb\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
 D:\IIHT\Task-11\MongoDb\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.deps.json
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\bin\Debug\netcoreapp2.2\TouristGuide.Entities.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\bin\Debug\netcoreapp2.2\TouristGuide.Entities.pdb
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.csprojAssemblyReference.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.AssemblyInfoInputs.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.AssemblyInfo.cs
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.csproj.CopyComplete
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
+C:\Users\KUMARUMA\Documents\GitHub\Dotnet_FSE_PA_Tourist_Guide\TouristGuide.DataLayer\obj\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide\\TouristGuide.csproj": {}
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide\\TouristGuide.csproj": {}
   },
   "projects": {
-    "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj",
         "projectName": "TouristGuide.BusinessLayer",
-        "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj": {
-                "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj"
               },
-              "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
-                "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
         "projectName": "TouristGuide.DataLayer",
-        "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -95,8 +95,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
-                "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj",
         "projectName": "TouristGuide.Entities",
-        "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide\\TouristGuide.csproj": {
+    "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide\\TouristGuide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide\\TouristGuide.csproj",
+        "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide\\TouristGuide.csproj",
         "projectName": "TouristGuide",
-        "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide\\TouristGuide.csproj",
+        "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide\\TouristGuide.csproj",
         "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-        "outputPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide\\obj\\",
+        "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -227,14 +227,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj": {
-                "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.BusinessLayer\\TouristGuide.BusinessLayer.csproj"
               },
-              "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj": {
-                "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj"
               },
-              "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
-                "projectPath": "D:\\IIHT\\Task-11\\MongoDb\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
+              "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
+                "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
               }
             }
           }

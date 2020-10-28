@@ -27,8 +27,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<AboutIndia> AboutIndia(AboutIndia aboutIndia)
         {
-            var aboutindia = await _aTRepository.AboutIndia(aboutIndia);
-            return aboutindia;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// add new Destination in MongoDb Destination Collection
@@ -37,8 +37,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Destination> AddNewDestination(Destination destination)
         {
-            var newdestination = await _aTRepository.AddNewDestination(destination);
-            return newdestination;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// add new Place in MongoDb Place Collection
@@ -47,8 +47,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Place> AddNewPlace(Place place)
         {
-            var newplacce = await _aTRepository.AddNewPlace(place);
-            return newplacce;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all Information of Contact Message come from User in MongoDb Collection
@@ -56,8 +56,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<IEnumerable<ContactUs>> AllContactMessage()
         {
-            var allcontact = await _aTRepository.AllContactMessage();
-            return allcontact;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get all tour guide information from TourGuide Mongodb Collection
@@ -65,8 +65,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<IEnumerable<TourGuide>> AllTourGuide()
         {
-            var tourguide = await _aTRepository.AllTourGuide();
-            return tourguide;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete Destination information from Destination by Id Mongodb Collection
@@ -75,8 +75,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<bool> DeleteDestination(string destinationId)
         {
-            var result = await _aTRepository.DeleteDestination(destinationId);
-            return result;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete Place information from Place by Id Mongodb Collection
@@ -85,8 +85,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<bool> DeletePlace(string placeId)
         {
-            var result = await _aTRepository.DeletePlace(placeId);
-            return result;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Delete Tour Guide information from TourGuide by Id Mongodb Collection
@@ -95,8 +95,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<bool> DeleteTourGuide(string tourId)
         {
-            var result = await _aTRepository.DeleteTourGuide(tourId);
-            return result;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get destination by destinationId
@@ -105,8 +105,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Destination> DestinationById(string destinationId)
         {
-            var destination = await _aTRepository.DestinationById(destinationId);
-            return destination;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get TourGuide Infromation by Id from TourGuide MongoDb collection
@@ -115,8 +115,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<TourGuide> TourGuideById(string tourId)
         {
-            var tour = await _aTRepository.TourGuideById(tourId);
-            return tour;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Destination by destinationId
@@ -126,8 +126,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Destination> UpdateDestination(string destinationId, Destination destination)
         {
-            var update = await _aTRepository.UpdateDestination(destinationId, destination);
-            return update;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update an existing Place by PlaceId
@@ -137,8 +137,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<Place> UpdatePlace(string placeId, Place place)
         {
-            var update = await _aTRepository.UpdatePlace(placeId, place);
-            return update;
+            //Do Code Here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Update TourGuide Information Using tourId
@@ -148,8 +148,8 @@ namespace TouristGuide.BusinessLayer.Servies
         /// <returns></returns>
         public async Task<TourGuide> UpdateTourGuide(string tourId, TourGuide tourGuide)
         {
-            var update = await _aTRepository.UpdateTourGuide(tourId, tourGuide);
-            return update;
+            //Do Code Here
+            throw new NotImplementedException();
         }
     }
 }
